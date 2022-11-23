@@ -39,3 +39,6 @@ To begin with I'm using Ubuntu 22.04, and the latest VS-Code update.
 - [Tailwind](https://tailwindcss.com/docs/guides/nextjs) v3.2.4
 - [Next.js](https://vercel.com/templates/next.js/nextjs-boilerplate)
 - [Shopify](https://shopify.dev/api/admin/getting-started)
+
+### Time spent
+- 23/11/22 => 1.5hrs learning setup, muddled about with TSX vs JS, view commit log to see
