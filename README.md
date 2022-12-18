@@ -44,3 +44,4 @@ To begin with I'm using Ubuntu 22.04, and the latest VS-Code update.
 - 23/11/22 => 2hrs learning setup, muddled about with TSX vs JS, view commit log to see
 - 07/12/22 => 2.5hrs solving some errors, learning basic css styling so that I could add buttons and double checking items added in the actual webpage
 - 18/12/22 => 2.5hrs reading up around difference of `class` and `className` attribute in css tags, seems like there isn't one and hence you can see in footer I used `class` instead, imported the use of AppReducers and Context for managing shared state between windows and making use of CSS icon library https://fontawesome.com/, from here I now need to fix styling on the homepage as the images aren't consistently sized
+- 18/12/22 => 1.5hrs on fixing styles around buttons and figuring out more on tailwind styling for css
