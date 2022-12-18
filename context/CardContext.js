@@ -16,14 +16,14 @@ export function AppWrapper({children}) {
         if (JSON.parse(localStorage.getItem('mg-items'))) {
             dispatch({
                 type: 'load_items',
-                value: JSON.parse.localStorage.getItem('mg-items')
+                value: JSON.parse(localStorage.getItem('mg-items'))
             })
         }
     }, [])
 
     // state is maintained
     useEffect(() => {
-        if (state != initialState) {
+        if (state !== initialState) {
             localStorage.setItem('mg-items', JSON.stringify(state))
         }
     }, [state])
