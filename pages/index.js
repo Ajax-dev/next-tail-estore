@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Router  from 'next/router'
 import Stripe from 'stripe'
+import PurchaseCard from '../components/PurchaseCard'
 
 export async function getServerSideProps(context) {
   const stripe = new Stripe(process.env.STRIPE_SECRET ?? '', {
@@ -49,7 +50,7 @@ export default function Home({ prices }) {
       <div>Do you wish to buy...</div>
       <br></br>
       {prices.map((price, index) => {
-        return <div className='cursor-pointer' key={index} onClick={checkout}>{price.product.name}</div>
+        return <PurchaseCard price={price} key={index}/>
       })}
 
     </div>
